@@ -50,7 +50,7 @@ function convert_thousands(num) {
         return convert(number);
         
       }
-      console.log(toReadable(50));
+
   
   
 
