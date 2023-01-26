@@ -1,4 +1,3 @@
-
     var ones = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
 var tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety'];
 var teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
@@ -46,11 +45,10 @@ function convert_thousands(num) {
 
       module.exports = function toReadable (number) {
         
-        
-        return convert(number);
+        var a = convert(number);
+        return a.trimEnd();
         
       }
-
-  
+   
   
 
